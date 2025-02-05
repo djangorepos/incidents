@@ -10,7 +10,7 @@ Incident fields:
 
 Deployment:
 - git clone https://github.com/djangorepos/incidents.git
-- cd crud
+- cd incidents
 - docker-compose up --build -d
 - docker ps (to see all containers)
 - docker exec -it  </your container web/> python manage.py makemigrations
