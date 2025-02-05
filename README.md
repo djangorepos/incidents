@@ -6,7 +6,7 @@ Incident fields:
 - latitude
 - longitude
 - created_at
-- status(Active or Closed)
+- status("active" or "closed")
 
 Deployment:
 - git clone https://github.com/djangorepos/incidents.git
